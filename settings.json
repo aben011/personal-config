@@ -13,12 +13,19 @@
 
   /* --------------------------- Perfomance related --------------------------- */
   "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
+    "**/.git/**": true,
+    "**/.venv/**": true,
+    "**/__pycache__/**": true,
+    "**/build/**": true,
+    "**/dist/**": true,
     "**/node_modules/**": true
   },
   "search.exclude": {
     "**/.git/**": true,
+    "**/.venv/**": true,
+    "**/__pycache__/**": true,
+    "**/build/**": true,
+    "**/dist/**": true,
     "**/node_modules/**": true
   },
 
