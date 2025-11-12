@@ -1,0 +1,112 @@
+{
+  /* -------------------------- Application settings -------------------------- */
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.insertSpaces": true,
+  "editor.rulers": [80, 100],
+  "editor.tabSize": 4,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "bearded-icons",
+
+  /* --------------------------- Perfomance related --------------------------- */
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": true
+  },
+
+  /* -------------------- Access to .bash_profile variables ------------------- */
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/usr/bin/bash",
+      "icon": "terminal-bash",
+      "args": ["-l"]
+    }
+  },
+
+  /* ---------------------------- Language settings --------------------------- */
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  /* --------------------------- Extension settings --------------------------- */
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#1F1F1F",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#FF2D00",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#1F1F1F",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#3498DB",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "TODO",
+      "color": "#1F1F1F",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#FF8C00",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+
+  "black-formatter.args": ["-S", "--line-length", "100"],
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.pruneOnFetch": true
+}
