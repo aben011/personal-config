@@ -5,7 +5,12 @@
     "codezombiech.gitignore",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
+    "github.copilot",
+    "github.copilot-chat",
+    "helgardrichard.helium-icon-theme",
+    "miguelsolorio.min-theme",
     "ms-azuretools.vscode-containers",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
     "ms-python.black-formatter",
     "ms-python.debugpy",
     "ms-python.isort",
@@ -21,7 +26,6 @@
     "shardulm94.trailing-spaces",
     "stackbreak.comment-divider",
     "visualstudioexptteam.intellicode-api-usage-examples",
-    "visualstudioexptteam.vscodeintellicode",
-    "zhuangtongfa.material-theme"
+    "visualstudioexptteam.vscodeintellicode"
   ]
 }
