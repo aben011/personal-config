@@ -1,30 +1,25 @@
 {
   "recommendations": [
     "aaron-bond.better-comments",
-    "beardedbear.beardedicons",
     "codezombiech.gitignore",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "github.copilot",
-    "github.copilot-chat",
     "helgardrichard.helium-icon-theme",
     "miguelsolorio.min-theme",
     "ms-azuretools.vscode-containers",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
     "ms-python.black-formatter",
-    "ms-python.debugpy",
     "ms-python.isort",
     "ms-python.pylint",
     "ms-python.python",
-    "ms-python.vscode-pylance",
-    "ms-python.vscode-python-envs",
     "ms-vscode-remote.remote-ssh",
-    "ms-vscode-remote.remote-ssh-edit",
-    "ms-vscode.remote-explorer",
     "naumovs.color-highlight",
     "redhat.vscode-yaml",
     "shardulm94.trailing-spaces",
     "stackbreak.comment-divider",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "timonwong.shellcheck",
+    "WallabyJs.quokka-vscode"
   ]
 }
