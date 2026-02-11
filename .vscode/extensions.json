@@ -4,7 +4,7 @@
     "codezombiech.gitignore",
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
-    "github.copilot",
+    "github.copilot-chat",
     "helgardrichard.helium-icon-theme",
     "miguelsolorio.min-theme",
     "ms-azuretools.vscode-containers",
@@ -20,6 +20,6 @@
     "stackbreak.comment-divider",
     "streetsidesoftware.code-spell-checker",
     "timonwong.shellcheck",
-    "WallabyJs.quokka-vscode"
+    "wallabyjs.quokka-vscode"
   ]
 }
